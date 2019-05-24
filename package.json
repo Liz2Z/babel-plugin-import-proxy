@@ -1,0 +1,16 @@
+{
+  "name": "babel-plugin-import-proxy",
+  "version": "0.0.1",
+  "description": "a babel plugin for 'import' syntax proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:u": "jest \"-u\""
+  },
+  "author": "L.S <fitz-i@foxmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "jest": "^24.8.0"
+  }
+}

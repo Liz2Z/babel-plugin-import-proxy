@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`work use CamelCase & without to key 1`] = `
+"import Button from 'components/lib/Button';
+import Table from 'components/lib/Table';
+
+import { Affix, Input } from 'antd';
+import axios from 'axios';"
+`;
+
+exports[`work with multiple plugins 1`] = `
+"import Button from 'components/lib/Button';
+import 'components/es/Button/style.less';
+import Table from 'components/lib/Table';
+import 'components/es/Table/style.less';
+import Affix from 'antd/es/affix';
+import 'antd/es/affix/style.less';
+import Input from 'antd/es/input';
+import 'antd/es/input/style.less';
+
+import axios from 'axios';"
+`;
+
+exports[`work with style key & without to key & use CamelCase 1`] = `
+"import Button from 'components/lib/Button';
+import 'components/es/Button/style.less';
+import Table from 'components/lib/Table';
+import 'components/es/Table/style.less';
+
+import { Affix, Input } from 'antd';
+import axios from 'axios';"
+`;
+
+exports[`work with to key 1`] = `
+"import Button from 'components/es/button';
+import Table from 'components/es/table';
+
+import { Affix, Input } from 'antd';
+import axios from 'axios';"
+`;
+
+exports[`work without from key 1`] = `
+"
+import { Button, Table } from 'components';
+import { Affix, Input } from 'antd';
+import axios from 'axios';"
+`;
+
+exports[`work without to key 1`] = `
+"import Button from 'components/lib/button';
+import Table from 'components/lib/table';
+
+import { Affix, Input } from 'antd';
+import axios from 'axios';"
+`;
