@@ -6,7 +6,7 @@ a babel plugin for 'import' syntax proxy
 ```javascript
 import {Button, Table} from 'packageName';
 ```
-tranform to
+transform to
 ```javascript
 import Button from 'packageName/lib/Button';
 import Table from 'packageName/lib/Table';
@@ -17,7 +17,7 @@ or
 ```javascript
 import {Button, Table} from 'packageName';
 ```
-tranform to
+transform to
 ```javascript
 import Button from 'packageName/lib/Button';
 import Button from 'packageName/lib/Button/style.less';
